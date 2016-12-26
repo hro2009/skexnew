@@ -1,0 +1,75 @@
+@media (max-width: 1199px){
+    .modal.wide-modal .modal-dialog {
+        width: 700px !important;
+    }
+    .ske-container .ske-side:last-child{
+        width:100%;
+        max-width: inherit;
+    }
+    .ske-image-area{
+        max-width: 88%;
+    }
+    .ske-paint-sidebar{
+        border-radius:0;
+    }
+    .ske-userbar-header-left{
+        width:30% !important;
+    }
+    .ske-userbar-header{
+        width:70% !important;
+    }
+}
+
+@media (max-width: 767px){
+    .modal.wide-modal .modal-dialog {
+        width: auto !important;
+    }
+    .ske-side{
+        min-height:inherit !important;
+    }
+    .wrapper-area{
+        padding:0 30px;
+    }
+
+}
+
+@media (max-width: 991px){
+    .ske-userbar-header-left{
+        width:100% !important;
+    }
+    .ske-userbar-header{
+        width:100% !important;
+    }
+    .user-title{
+        padding: 15px 0 0;
+    }
+    .ske-userbar-header{
+        padding: 30px 0 15px;
+    }
+}
+@media (max-width: 599px){
+    .carousel-inner > .item.next.left, .carousel-inner > .item.prev.right, .carousel-inner > .item.active{
+        min-height:480px;
+        height:inherit !important;
+    }
+}
+
+@media (max-width: 499px){
+    .btn-new-record{
+        float:left;
+    }
+    .sker-user-avatar{
+        width:100%;
+    }
+}
+@media (max-width: 375px){
+    .cancel-paint{
+        padding: 26px 26px 26px 20px;
+    }
+    .save-paint{
+        margin: 14px 20px;
+    }
+    .user-title{
+        font-size: 24px;
+    }
+}
